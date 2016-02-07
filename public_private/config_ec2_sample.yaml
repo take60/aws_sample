@@ -1,0 +1,16 @@
+input:
+  cli_profile: tokyo
+  ami_id: ami-383c1956
+  public_instance_type: m4.large
+  private_instance_type: m4.large
+  public_instance_name: public
+  public_iam: arn:aws:iam::AWSID:instance-profile/XXX
+  private_instance_name: private
+  private_iam: arn:aws:iam::AWSID:instance-profile/YYY
+  public_private_ip: 192.168.0.20
+  private_private_ip: 192.168.1.20
+  keyname: key-dev
+  volume_size: 100
+
+
+  
